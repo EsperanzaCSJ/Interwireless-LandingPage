@@ -1,9 +1,9 @@
 ---
 import { SITE } from '~/utils/config';
-import { Image } from 'astro:assets';
+import Image from '~/components/common/Image.astro';
 
 ---
-<Image src="images/apple-touch-icon.png" alt="cualquier broma" width="50" height="50"/>
+<Image src="~/assets/images/logo-naranja.png" alt="/" width="30px" />
 <span class="self-center ml-2 rtl:ml-0 rtl:mr-2 text-2xl md:text-xl font-bold text-gray-900 whitespace-nowrap dark:text-white">
   {SITE?.name}
 </span>

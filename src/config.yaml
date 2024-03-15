@@ -1,6 +1,6 @@
 site:
   name: Interwireless
-  site: 'https://astrowind.vercel.app'
+  site: 'https://interwireless.net'
   base: '/'
   trailingSlash: false
 
@@ -80,7 +80,7 @@ ui:
         bgPage: rgb(255 255 255)
         primary: rgb(246, 147, 4)
         secondary: rgb(211, 82, 3)
-        accent: rgb(109 40 217)
+        accent: rgb(217 81 40)
         info: rgb(255, 211, 158)
         success: rgb(54 211 153)
         warning: rgb(251 189 35)
@@ -96,7 +96,7 @@ ui:
         bgPage: rgb(3 6 32)
         primary: rgb(240, 126, 19)
         secondary: rgb(205, 107, 15)
-        accent: rgb(135 77 2267)
+        accent: rgb(135, 77, 226)
         info: rgb(243, 168, 98)
         success: rgb(54 211 153)
         warning: rgb(251 189 35)
