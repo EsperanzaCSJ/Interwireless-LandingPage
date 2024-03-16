@@ -11,10 +11,6 @@ export const headerData = {
           href: getPermalink('/about'),
         },
     {
-      text: 'Servicios',
-      href: getPermalink('/services'),
-    },
-    {
       text: 'Precios',
       href: getPermalink('/pricing'),
     },
@@ -23,11 +19,11 @@ export const headerData = {
       href: getPermalink('/contact'),
     },
   ],
-  actions: [{ text: 'Escríbenos', href: 'https://google.com', target: '_blank' }],
+  actions: [{ text: 'Escríbenos', href: 'https://wa.link/dhuebg', target: '_blank' }],
 };
 
 export const footerData = {
   footNote: `
-    <a class="text-orange-600 underline dark:text-muted" href="https://google.com/"> © Interwireless</a> ·  Todos los derechos reservados.
+    <a class="text-orange-600 underline dark:text-muted" href="/contacto"> © Interwireless</a> ·  Todos los derechos reservados.
   `,
 };

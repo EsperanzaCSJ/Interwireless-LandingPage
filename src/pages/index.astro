@@ -1,6 +1,5 @@
 ---
 import Layout from '~/layouts/PageLayout.astro';
-
 import Hero from '~/components/widgets/Hero.astro';
 import Note from '~/components/widgets/Note.astro';
 import Features from '~/components/widgets/Features.astro';
@@ -9,7 +8,7 @@ import FAQs from '~/components/widgets/FAQs.astro';
 import CallToAction from '~/components/widgets/CallToAction.astro';
 
 const metadata = {
-  title: 'Interwireless — El Internet por fibra optica de Turmero',
+  title: 'Interwireless — La Fibra optica de Turmero',
   ignoreTitleTemplate: true,
 };
 ---
@@ -22,15 +21,15 @@ const metadata = {
       {
         variant: 'primary',
         text: 'Planes',
-        href: 'https://google.com',
+        href: '/pricing',
         target: '_blank',
       },
       { text: 'Saber más', href: '#features' },
     ]}
   >
     <Fragment slot="title">
-      El internet más rápido <span class="hidden xl:inline">de Turmero</span>
-      <span class="text-accent highlight">Fibra Óptica</span> al mejor precio
+      Internet a tu alcance <br>
+      <span class="text-accent highlight">La Fibra Óptica</span> de Turmero
     </Fragment>
 
     <Fragment slot="subtitle">
@@ -101,7 +100,7 @@ const metadata = {
       },
     ]}
     image={{
-      src: '~/assets/images/iptv.jpg',
+      src: '~/assets/images/tv-wireless.png',
       alt: 'IPTV Image',
     }}
   >
@@ -189,14 +188,13 @@ const metadata = {
       {
         variant: 'primary',
         text: 'Contactar',
-        href: 'https://google.com',
+        href: 'https://wa.link/dhuebg',
         target: '_blank',
-        icon: 'tabler:download',
       },
     ]}
   >
     <Fragment slot="title">
-      <span class="sm:whitespace-nowrap">Contactanos</span>
+      <span class="sm:whitespace-nowrap">Contáctanos</span>
     </Fragment>
 
     <Fragment slot="subtitle">
