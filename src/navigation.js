@@ -28,6 +28,6 @@ export const headerData = {
 
 export const footerData = {
   footNote: `
-    <a class="text-blue-600 underline dark:text-muted" href="https://google.com/"> © Interwireless</a> ·  Todos los derechos reservados.
+    <a class="text-orange-600 underline dark:text-muted" href="https://google.com/"> © Interwireless</a> ·  Todos los derechos reservados.
   `,
 };
