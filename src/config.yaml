@@ -11,7 +11,7 @@ metadata:
   title:
     default: Interwireless
     template: '%s — Interwireless'
-  description: "Interwireless te provee internet de alta velocidad por fibra optica"
+  description: "Interwireless te provee internet de alta velocidad por fibra óptica"
   robots:
     index: true
     follow: true
