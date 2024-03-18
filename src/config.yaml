@@ -10,15 +10,15 @@ site:
 metadata:
   title:
     default: Interwireless
-    template: '%s — Interwireless'
-  description: "Interwireless te provee internet de alta velocidad por fibra óptica"
+    template: 'Interwireless'
+  description: "Interwireless la fibra óptica de Turmero"
   robots:
     index: true
     follow: true
   openGraph:
     site_name: Interwireless
     images:
-      - url: '~/assets/images/og.png'
+      - url: '~/assets/images/image-og-l.png'
         width: 1200
         height: 628
     type: website
