@@ -19,7 +19,7 @@ export const headerData = {
       href: getPermalink('/contacto'),
     },
   ],
-  actions: [{ text: 'Escríbenos', href: 'https://wa.link/dhuebg', target: '_blank' }],
+  actions: [{ text: 'SpeedTest', href: 'https://www.speedtest.net/es', target: '_blank' }],
 };
 
 export const footerData = {
