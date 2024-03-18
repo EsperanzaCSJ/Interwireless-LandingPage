@@ -8,15 +8,15 @@ export const headerData = {
     },
     {
       text: 'Nosotros',
-          href: getPermalink('/about'),
+          href: getPermalink('/nosotros'),
         },
     {
       text: 'Precios',
-      href: getPermalink('/pricing'),
+      href: getPermalink('/precios'),
     },
     {
       text: 'Contacto',
-      href: getPermalink('/contact'),
+      href: getPermalink('/contacto'),
     },
   ],
   actions: [{ text: 'Escríbenos', href: 'https://wa.link/dhuebg', target: '_blank' }],
